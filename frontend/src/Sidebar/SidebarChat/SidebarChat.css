@@ -1,0 +1,24 @@
+.sidebarChat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer; /* gives us the finger pointer*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+a{
+    text-decoration: none !important;
+    color: black;
+}
+
+.sidebarChat:hover{
+    background-color: rgba(161, 150, 150, 0.712);
+}
+
+.sidebarChat__info > h1{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sidebarChat__info {
+    margin-left: 15px;
+}

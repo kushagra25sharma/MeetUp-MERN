@@ -1,0 +1,32 @@
+.signin{
+    background-color: whitesmoke;
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+}
+
+.signin__container{
+    padding: 100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px black;
+}
+
+.signin__container > img{
+    object-fit: contain;
+    margin-bottom: 40px;
+    height: 200px;
+}
+
+.signin__container > button{
+    margin-top: 50px;
+    text-transform: inherit !important;
+    color: white;
+    background-color: rgb(0, 0, 255);
+}
+
+.signin__container > button:hover{
+    background-color: rgb(0, 0, 255) ;
+}
